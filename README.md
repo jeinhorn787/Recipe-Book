@@ -3,4 +3,4 @@ A simple Single Page Application using the framework Angular (specifically Angul
 
 The live link to the SPA can be found here: http://je-recipe-book-deployment.s3-website.us-east-2.amazonaws.com
 
-*** The repo only contains the raw code TypeScript and HTML/CSS code to be displayed on the page ***
+*** This repo only contains the raw TypeScript and HTML/CSS code used to display the page ***
