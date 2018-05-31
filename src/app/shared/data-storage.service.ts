@@ -15,13 +15,13 @@ export class DataStorageService {
     storeRecipes() {
         const token = this.authService.getToken();
 
-        return this.http.put('https://udemy-recipe-book-19755.firebaseio.com/recipes.json?auth=' + token, this.recipeService.getRecipes());
+        return this.http.put(*/ private URL*/ + token, this.recipeService.getRecipes());
     }
 
     fetchRecipes() {
         const token = this.authService.getToken();
 
-        this.http.get('https://udemy-recipe-book-19755.firebaseio.com/recipes.json?auth=' + token)
+        this.http.get(*/ private URL */ + token)
             .map(
                 (response: Response) => {
                     const recipes: Recipe[] = response.json();
